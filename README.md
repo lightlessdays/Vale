@@ -1,6 +1,6 @@
 # vale: an e-commerce app made using flutterfire
 
-![banner](https://raw.githubusercontent.com/lightlessdays/img/main/vale/banner.png)
+![banner](https://github.com/lightlessdays/img/blob/main/vale/Your%20paragraph%20text.png)
 
 
 ## frontend
