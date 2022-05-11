@@ -19,10 +19,9 @@ final List<String> hatCategories = [ ''
 ];
 
 var _auth=FirebaseAuth.instance;
-// ignore: non_constant_identifier_names
 final List<String> URLs = ['classic', 'beanie', 'visor', 'hat'];
 
-class HomePage extends StatelessWidget { const
+class HomePage extends StatelessWidget {
   HomePage({Key? key}) : super(key: key);
 
   @override
@@ -34,25 +33,25 @@ class HomePage extends StatelessWidget { const
         backgroundColor: Colors.black,
       ),
       drawer: Drawer(
-          backgroundColor: const Color(0xFF070707),
+          backgroundColor: Colors.black,
           child: (FirebaseAuth.instance.currentUser != null)
               ? Container(
                   height: 150,
-            padding: const EdgeInsets.all(25.0),
+            color: Colors.black,
+            padding: EdgeInsets.all(25.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children:  [
-                const Icon(Icons.account_circle,color: Colors.white,size: 90,),
-                const SizedBox(height: 25,),
+                 Icon(Icons.account_circle,color: Colors.white,size: 90,),
+                 Container(height: 25,),
                 DrawerMenu(text: "${_auth.currentUser?.email}", function: (){}),
-                const Divider(color: Colors.grey,),
                 DrawerMenu(text: "Shopping Cart", function: (){
                   Navigator.push(
                     context,
                     MaterialPageRoute(
                       builder: (BuildContext context) =>
-                          const CartLoader()
+                           CartLoader()
                     ),
                   );
                 }),
@@ -63,7 +62,7 @@ class HomePage extends StatelessWidget { const
                     context,
                     MaterialPageRoute(
                       builder: (BuildContext context) =>
-                      const HomePage(),
+                      HomePage(),
                     ),
                   );
                 }),
@@ -71,44 +70,47 @@ class HomePage extends StatelessWidget { const
             ),
                 )
               : Padding(
-                  padding: const EdgeInsets.all(48.0),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      const SizedBox(
-                        height: 5,
-                      ),
-                      DrawerMenu(
-                        text: "Register",
-                        function: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (BuildContext context) =>
-                                  const RegistrationScreen(),
-                            ),
-                          );
-                        },
-                      ),
-                      const SizedBox(
-                        height: 8,
-                      ),
-                      DrawerMenu(
-                        text: "Log In",
-                        function: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (BuildContext context) => const LogInScreen(),
-                            ),
-                          );
-                        },
-                      ),
-                      const SizedBox(
-                        height: 5,
-                      ),
-                    ],
+                  padding: EdgeInsets.all(48.0),
+                  child: Container(
+                    color: Colors.black,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Container(
+                          height: 5,
+                        ),
+                        DrawerMenu(
+                          text: "Register",
+                          function: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (BuildContext context) =>
+                                    RegistrationScreen(),
+                              ),
+                            );
+                          },
+                        ),
+                        Container(
+                          height: 8,
+                        ),
+                        DrawerMenu(
+                          text: "Log In",
+                          function: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (BuildContext context) => LogInScreen(),
+                              ),
+                            );
+                          },
+                        ),
+                        Container(
+                          height: 5,
+                        ),
+                      ],
+                    ),
                   ),
                 )),
       backgroundColor: Colors.white,
@@ -121,14 +123,14 @@ class HomePage extends StatelessWidget { const
                     "https://i.pinimg.com/originals/16/41/56/164156ea67abb926201568fa67f42d8c.jpg",
                 width: double.infinity,
               ),
-              const SizedBox(
+              Container(
                 height: 55.0,
               ),
               GridView.builder(
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2),
                   itemCount: 4,
-                  physics: const NeverScrollableScrollPhysics(),
+                  physics: NeverScrollableScrollPhysics(),
                   shrinkWrap: true,
                   itemBuilder: (context, index) {
                     return GestureDetector(
@@ -147,21 +149,21 @@ class HomePage extends StatelessWidget { const
                       ),
                     );
                   }),
-              const SizedBox(
+              Container(
                 height: 45.0,
               ),
-              const Text(
+              Text(
                 "Explore Collections",
                 style: TextStyle(
                   fontFamily: "PoppinsExtraLight",
                   fontSize: 32.0,
                 ),
               ),
-              const SizedBox(
+              Container(
                 height: 16.0,
               ),
               Column(
-                children: const [
+                children: [
                   CollectionWidget(
                       index1:
                           "https://i.pinimg.com/originals/5f/82/51/5f82513e6c045f3932afd8a876df0fb8.jpg",
@@ -185,28 +187,28 @@ class HomePage extends StatelessWidget { const
                       brand2: 'yupoong')
                 ],
               ),
-              const SizedBox(
+              SizedBox(
                 height: 68.0,
               ),
-              const BottomImageText(
+              BottomImageText(
                 text:
                     'every piece of headwear ordered is hand prepared by us at one of our shops at Italy, China and France, before it is shipped to you.\n\n',
                 image:
                     'https://i.pinimg.com/originals/ce/69/33/ce69334f2419500ec3e49109f96f9902.jpg',
               ),
-              const BottomImageText(
+              BottomImageText(
                 text:
                     'we work with the best fabric sourced exclusively from Italy, drawing from our unique Italian heritage and craftsmanship, with scrupulous attention to quality and fit.\n\n',
                 image:
                     'https://i.pinimg.com/originals/6a/b0/4b/6ab04b278e07031882790ffb69588901.jpg',
               ),
-              const BottomImageText(
+              BottomImageText(
                 text:
                     'a hat from vale is a hat for life. the hats we supply are made with best materials from around the globe. if taken care of properly, our hats can last a lifetime!\n\n',
                 image:
                     'https://i.pinimg.com/originals/6d/cd/81/6dcd812e41f708cd96b8a38b3a977e7b.jpg',
               ),
-              const Footer(),
+              Footer(),
             ],
           ),
         ),
