@@ -29,3 +29,6 @@ Download APK (arm64-v8a release): [Download](https://drive.google.com/file/d/1f3
 
 Download APK (ax86-64 release): [Download](https://drive.google.com/file/d/1MOzB2oUyFOjZX5jKL0Sbqv55I8Ay-vce/view?usp=sharing)
 
+### glitch
+
+There seems to be a minor glitch in armeabi-v7a release as dialog boxes are not showing up. The app will function fully well, except that dialog boxes won't show up. This will be fixed soon.
