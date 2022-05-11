@@ -20,4 +20,5 @@ This app has been written using Dart, YAML and XML. Majority of the backend is b
 ## download the app
 
 Download APK:
+
 Download from Play Store:
