@@ -27,6 +27,7 @@ class ListofProducts extends StatelessWidget {
                         GestureDetector(
                           onTap:(){
                             covermodels.sort((a,b){return a.title.compareTo(b.title);});
+                            Navigator.pop(context);
                             Navigator.pushReplacement(
                               context,
                               MaterialPageRoute(
@@ -38,6 +39,7 @@ class ListofProducts extends StatelessWidget {
                             child: const ListTile(title: Text('Alphabetically (A-Z)',style: TextStyle(fontSize: 14.0,fontFamily: 'PoppinsSemiBold'),),)),
                         GestureDetector(
                             onTap:(){
+                              Navigator.pop(context);
                               Navigator.pushReplacement(
                                 context,
                                 MaterialPageRoute(
@@ -205,6 +207,7 @@ class FilterMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: (){
+        Navigator.pop(context);
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
