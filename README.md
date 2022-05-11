@@ -31,4 +31,4 @@ Download APK (ax86-64 release): [Download](https://drive.google.com/file/d/1MOzB
 
 ### glitch
 
-There seems to be a minor glitch in armeabi-v7a release as dialog boxes are not showing up. The app will function fully well, except that dialog boxes won't show up. This will be fixed soon.
+There seems to be a minor glitch in armeabi-v7a release as dialog boxes are not showing up. The app will function fully well, except that dialog boxes won't show up in register and login screen. This will be fixed soon.
