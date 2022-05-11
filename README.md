@@ -17,4 +17,4 @@ The archtitechture used is MVC archtitechture. All the graphics have been create
 
 This app has been written using Dart, YAML and XML. Majority of the backend is being handled using Firebase Firestore and Firebase Authentication. Each users' data and orders are stored in a NoSQL database (Cloud Firestore). CRUD operations require the user to connect to the internet. Payment Gateways have been built using Razorpay (these are mock payment gateways, so do no make any payment using those gateways). Also, Google Maps API has been integrated in the app in the Store Locator section.
 
-##payment integration
+## payment integration
