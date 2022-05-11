@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "685650133871",
+    "project_id": "vale-171ba",
+    "storage_bucket": "vale-171ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685650133871:android:c684e74c453ee147b35e9a",
+        "android_client_info": {
+          "package_name": "com.huckenberryshopping.vale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685650133871-amoh8p4rhrmnq0iv4s2m0f4vkk5sq33m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCt5ybpp7dTCwwRy3xpRFK5yYhsnGzyAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685650133871-amoh8p4rhrmnq0iv4s2m0f4vkk5sq33m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
