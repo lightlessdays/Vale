@@ -15,11 +15,11 @@ The archtitechture used is MVC archtitechture. All the graphics have been create
 
 ![backend](https://raw.githubusercontent.com/lightlessdays/img/main/Untitled%20design.jpg)
 
-This app has been written using Dart, YAML and XML. Each users' data and orders are stored in a NoSQL database (Cloud Firestore). CRUD operations require the user to connect to the internet. Payment Gateways have been built using Razorpay (these are mock payment gateways, so do no make any payment using those gateways). Also, Google Maps API has been integrated in the app in the Store Locator section.
+This app has been written using Dart, YAML and XML. Each users' data and orders are stored in a NoSQL database (Cloud Firestore). CRUD operations require the user to connect to the internet. Payment Gateways have been built using Razorpay (these are mock payment gateways, so do no make any payment using those gateways). Also, Google Maps API has been integrated in the app in the Store Locator section. 
 
 ## download the app
 
-If you are unsure about which APK configuration to download, go for the armeabi-v7a (the first one).
+If you are unsure about which APK configuration to download, go for the armeabi-v7a (the first one). size of release app: 8 MB.
 
 Download APK (armeabi-v7a release | this will work for 90% of the users): [Download](https://drive.google.com/file/d/1WT34DXxMuLv03RiV-hMGUUnpLMr7azuk/view?usp=sharing)
 
