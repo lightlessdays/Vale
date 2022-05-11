@@ -1,4 +1,4 @@
-# valecode
+# vale- an e-commerce app made using flutterfire
 
 A new Flutter project.
 
