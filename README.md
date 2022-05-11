@@ -23,7 +23,7 @@ If you are unsure about which APK configuration to download, go for the armeabi-
 
 Download APK (armeabi-v7a release | this will work for 90% of the users): [Download](https://drive.google.com/file/d/1WT34DXxMuLv03RiV-hMGUUnpLMr7azuk/view?usp=sharing)
 
-Download APK (debug): [Download](https://drive.google.com/file/d/1O8oSqDUKeJk5RCa39IV8IjbIvX4Dqabq/view?usp=sharing)
+Download APK (debug | for developers): [Download](https://drive.google.com/file/d/1O8oSqDUKeJk5RCa39IV8IjbIvX4Dqabq/view?usp=sharing)
 
 Download APK (arm64-v8a release): [Download](https://drive.google.com/file/d/1f3DhQk5s549ZC6lgubXyQkxrUDbOVuqr/view?usp=sharing)
 
