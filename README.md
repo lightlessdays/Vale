@@ -21,7 +21,7 @@ This app has been written using Dart. Each users' data and orders are stored in 
 
 If you are unsure about which APK configuration to download, go for the armeabi-v7a (the first one). size of release app: 8 MB.
 
-Download APK (armeabi-v7a release | this will work for 90% of the users): [Download](https://drive.google.com/file/d/1WT34DXxMuLv03RiV-hMGUUnpLMr7azuk/view?usp=sharing)
+Download APK (armeabi-v7a release | this will work for 90% of the users): [Download](https://drive.google.com/file/d/1uhohMYpgNZTitSAMQPXbzXCASUs_JDAU/view?usp=sharing)
 
 Download APK (debug | for developers): [Download](https://drive.google.com/file/d/1O8oSqDUKeJk5RCa39IV8IjbIvX4Dqabq/view?usp=sharing)
 
@@ -29,6 +29,3 @@ Download APK (arm64-v8a release): [Download](https://drive.google.com/file/d/1f3
 
 Download APK (ax86-64 release): [Download](https://drive.google.com/file/d/1MOzB2oUyFOjZX5jKL0Sbqv55I8Ay-vce/view?usp=sharing)
 
-### glitch
-
-There seems to be a minor glitch in armeabi-v7a release as dialog boxes are not showing up. The app will function fully well, except that dialog boxes won't show up in register and login screen. This will be fixed soon.
